@@ -11,7 +11,7 @@ echo ".cfg" >> $HOME/.gitignore
 
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 echo ".cfg" >> $HOME/.gitignore
-git clone --bare git@github.com:Mike184Kilic/Dotfiles.git $HOME/.cfg
+git clone --bare git@github.com:ArijitDas2005/Dotfiles.git $HOME/.cfg
 config checkout
 if [ "$?" -gt 0 ]
 then
